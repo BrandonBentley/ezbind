@@ -1,6 +1,6 @@
 # ezbind
  
-ezbind is a simple module for apply environment bindings for all fields in a struct when using [spf13/viper](https://github.com/spf13/viper) for configuration.
+ezbind is a simple module for creating environment bindings for [spf13/viper](https://github.com/spf13/viper) struct configurations.
 
 
 ## Installation
@@ -84,7 +84,8 @@ func main() {
 	enc.Encode(config)
 }
 ```
-#### output 
+
+#### Output 
 ``` bash
 > go run example/example.go
 {
